@@ -1,0 +1,116 @@
+/* Root Theme Variables */
+:root {
+    --font-color: #333;
+    --heading-color: #222;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --background-color: #fff;
+    --table-header-bg: #f5f5f5;
+    --blockquote-bg: #f9f9f9;
+    --blockquote-border: #ccc;
+    --code-bg: #f4f4f4;
+    --code-color: #d63384;
+}
+
+/* Dark Theme Variables */
+.dark {
+    --font-color: #ddd;
+    --heading-color: #fff;
+    --link-color: #4a90e2;
+    --link-hover-color: #8ab4f8;
+    --background-color: #222;
+    --table-header-bg: #444;
+    --blockquote-bg: #333;
+    --blockquote-border: #555;
+    --code-bg: #2e2e2e;
+    --code-color: #ff79c6;
+}
+
+/* Light Theme Variables (default) */
+.light {
+    --font-color: #333;
+    --heading-color: #222;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --background-color: #fff;
+    --table-header-bg: #f5f5f5;
+    --blockquote-bg: #f9f9f9;
+    --blockquote-border: #ccc;
+    --code-bg: #f4f4f4;
+    --code-color: #d63384;
+}
+
+/* Apply Theme Variables */
+.sun-editor-content {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--font-color);
+}
+
+/* Heading Styles */
+.sun-editor-content h1,
+.sun-editor-content h2,
+.sun-editor-content h3,
+.sun-editor-content h4,
+.sun-editor-content h5,
+.sun-editor-content h6 {
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+/* Table Styles */
+.sun-editor-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    border: 1px solid var(--blockquote-border);
+    background-color: var(--background-color);
+}
+
+.sun-editor-content th {
+    background-color: var(--table-header-bg);
+    font-weight: bold;
+}
+
+.sun-editor-content th,
+.sun-editor-content td {
+    padding: 10px;
+    border: 1px solid var(--blockquote-border);
+    text-align: left;
+}
+
+/* Link Styles */
+.sun-editor-content a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.sun-editor-content a:hover {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+
+/* Blockquote Styles */
+.sun-editor-content blockquote {
+    margin: 1rem 0;
+    padding: 10px 20px;
+    background-color: var(--blockquote-bg);
+    border-left: 5px solid var(--blockquote-border);
+    font-style: italic;
+}
+
+/* Code Block Styles */
+.sun-editor-content pre {
+    padding: 10px;
+    background-color: var(--code-bg);
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.sun-editor-content code {
+    font-family: Consolas, 'Courier New', monospace;
+    color: var(--code-color);
+}
+
+/* Other Styles... (use variables where appropriate) */
