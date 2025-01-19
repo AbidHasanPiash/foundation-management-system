@@ -32,7 +32,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "pm2 start ecosystem.config.js",
+    "start": "next start",
     "eslint:check": "eslint .",
     "eslint:fix": "eslint . --fix",
     "prettier:check": "prettier . --check",
