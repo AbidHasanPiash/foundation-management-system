@@ -2,10 +2,6 @@
   "name": "foundation-management-system",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=23.x",
-    "npm": ">=10.x"
-  },
   "repository": "https://github.com/montasim/authentication-2.0",
   "homepage": "https://github.com/montasim/authentication-2.0/",
   "issues": "https://github.com/montasim/authentication-2.0/issues",
