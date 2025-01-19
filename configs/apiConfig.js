@@ -1,4 +1,4 @@
-const URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://foundation-management-system.vercel.app/';
+const URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://foundation-management-system.vercel.app';
 const PORT = process.env.NEXT_PUBLIC_PORT || '3000';
 const VERSION = process.env.NEXT_PUBLIC_VERSION || 'v1';
 
